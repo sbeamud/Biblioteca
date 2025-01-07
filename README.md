@@ -2,9 +2,9 @@
 
 ¡Bievenid@ a mi humilde proyecto! 
 
-## Descripción
+## Descripción :rocket:
 
-Con este pequeño proyecto espero mejorar mis habilidades con PHP :rocket:
+Con este pequeño proyecto espero mejorar mis habilidades con PHP 
 
 ## Tecnologías empleadas :computer:
 
