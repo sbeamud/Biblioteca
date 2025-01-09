@@ -11,8 +11,8 @@ $libros = [
     ["Activa tus mitocondrias", "Antonio Valenzuela"]
 ]; 
 
+// Pasar por cada libro y si esta su columna vacia hace la insercion
 foreach ($libros as $libro) {
-    // Verificar si el libro ya existe
     $verificarLibro = $pdo->prepare("SELECT COUNT(*) FROM libros WHERE titulo = ?");
     $verificarLibro->execute([$libro[0]]);
     
@@ -23,4 +23,5 @@ foreach ($libros as $libro) {
         echo "El libro '{$libro[0]}' ya existe en la base de datos.<br>";
     }
 }
+
 ?>
