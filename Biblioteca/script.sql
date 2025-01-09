@@ -21,3 +21,10 @@ CREATE TABLE Prestamos (
     FOREIGN KEY (id_libro) REFERENCES Libros(id),
     FOREIGN KEY (id_usuario) REFERENCES Usuarios(id) ON DELETE CASCADE
 );
+
+INSERT INTO libros (titulo, autor) VALUES ("Don Quijote de la Mancha", "Miguel de Cervantes");
+INSERT INTO libros (titulo, autor) VALUES ("El lado oscuro", "Tricia Barr");
+INSERT INTO libros (titulo, autor) VALUES ("Activa tus mitocondrias", "Antonio Valenzuela");
+INSERT INTO usuarios (titulo, autor) VALUES ("Fredi Mercurio", "fredi@queen.com");
+INSERT INTO usuarios (titulo, autor) VALUES ("Brian May", "brian@queen.com");
+INSERT INTO usuarios (titulo, autor) VALUES ("Roger Tylor", "roger@queen.com");
